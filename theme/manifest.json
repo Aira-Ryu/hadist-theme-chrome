@@ -1,0 +1,19 @@
+{
+  // Required
+  "manifest_version": 3,
+  "name": "Daily Hadist",
+  "author": "Dev Outpost",
+  "version": "1.0.1",
+
+  // Recommended
+  "description": "its give you daily hadist every you opened chrome or refresh it, stay hallal",
+  //   "icons": "",
+  "chrome_url_overrides": {
+    "newtab": "main.html"
+  },
+
+  // Optional
+  "background": {
+    "service_worker": "background.js"
+  }
+}
